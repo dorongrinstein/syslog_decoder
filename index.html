@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syslog Priority Decoder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Syslog Priority Decoder</h1>
+        <form id="priorityForm">
+            <label for="priority">Enter Priority Number:</label>
+            <input type="number" id="priority" name="priority" min="0" max="191" required>
+            <button type="submit">Decode</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
